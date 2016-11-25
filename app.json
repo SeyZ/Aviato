@@ -1,0 +1,24 @@
+{
+  "name": "aviato",
+  "description": "The admin microservice of aviato",
+  "website": "http://www.forestadmin.com/lumber",
+  "repository": "https://github.com/ForestAdmin/lumber",
+  "env": {
+    "FOREST_AUTH_KEY": {
+      "description": "A random JWT signing key to protect your admin API",
+      "value": "fdd9d322cd5fc736ed3f5513541eb390c6563fca27531c9e7b4410752810fbafd8afdab08262a14423216a988a41a481"
+    },
+    "FOREST_SECRET_KEY": {
+      "description": "The Forest secret key",
+      "value": "2a64bc8b1a7bad16de5a5736fe788b001233e43538781d1828574843ff7704c6"
+    },
+    "DATABASE_URL": {
+      "description": "The remote database connection URL",
+      "value": "postgres://<user>:<password>@<host>:<port>/<databaseName>"
+    },
+    "SSL_DATABASE": {
+      "description": "Specify if a SSL database connection is required.",
+      "value": "true"
+    }
+  }
+}
